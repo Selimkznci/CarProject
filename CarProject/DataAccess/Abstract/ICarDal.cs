@@ -9,7 +9,6 @@ namespace DataAccess.Abstract
 {
     public interface ICarDal : IEntityRepository<Car>
     {
-        bool CheckToAdd(Car entity);
         List<CarDetailDto> GetCarDetails();
     }
 }

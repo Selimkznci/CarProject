@@ -12,25 +12,11 @@ namespace DataAccess.Concrete.EntityFramework
 {
     public class EFCarDal : EfEntityRepositoryBase<Car, MyDatabaseContext>, ICarDal
     {
-        public new void Add(Car entity)
-        {
-            if (CheckToAdd(entity))
-            {
-                using (MyDatabaseContext context = new MyDatabaseContext())
-                {
-                    var addedEntity = context.Entry(entity);
-                    addedEntity.State = EntityState.Added;
-                    context.SaveChanges();
-                }
-            }
-            else
-            {
-                Console.WriteLine("ARABA EKLENEMEDİ");
-            }
-        }
+       
 
         public List<CarDetailDto> GetCarDetails()
         {
+
             using (MyDatabaseContext context = new MyDatabaseContext())
             {
                 var results = from car in context.cars
@@ -38,7 +24,7 @@ namespace DataAccess.Concrete.EntityFramework
                               join br in context.brands on car.BrandId equals br.Id
                               select new CarDetailDto
                               {
-                                  CarName = car.Description,
+                                  CarName = car.Descriptions,
                                   BrandName = br.BrandName,
                                   ColorName = col.ColorName,
                                   DailyPrice = car.DailyPrice
@@ -48,16 +34,6 @@ namespace DataAccess.Concrete.EntityFramework
             }
         }
 
-        public bool CheckToAdd(Car entity)
-        {
-            if (entity.Description.Length >= 2 && entity.DailyPrice > 0)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
-    }
+   
+   }
 }

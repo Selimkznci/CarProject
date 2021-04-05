@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\CarProject\\Entities\\Entities.csproj": {}
+    "C:\\Users\\selim\\source\\repos\\Selimkznci\\CarProject\\CarProject\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\CarProject\\Core\\Core.csproj": {
+    "C:\\Users\\selim\\source\\repos\\Selimkznci\\CarProject\\CarProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\CarProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\selim\\source\\repos\\Selimkznci\\CarProject\\CarProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\User\\source\\repos\\CarProject\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\CarProject\\Core\\obj\\",
+        "projectPath": "C:\\Users\\selim\\source\\repos\\Selimkznci\\CarProject\\CarProject\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\selim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\selim\\source\\repos\\Selimkznci\\CarProject\\CarProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "E:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\selim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -85,24 +87,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\CarProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\selim\\source\\repos\\Selimkznci\\CarProject\\CarProject\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\CarProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\selim\\source\\repos\\Selimkznci\\CarProject\\CarProject\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\User\\source\\repos\\CarProject\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\CarProject\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\selim\\source\\repos\\Selimkznci\\CarProject\\CarProject\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\selim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\selim\\source\\repos\\Selimkznci\\CarProject\\CarProject\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "E:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\selim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -117,8 +121,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\CarProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\CarProject\\Core\\Core.csproj"
+              "C:\\Users\\selim\\source\\repos\\Selimkznci\\CarProject\\CarProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\selim\\source\\repos\\Selimkznci\\CarProject\\CarProject\\Core\\Core.csproj"
               }
             }
           }
@@ -150,7 +154,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

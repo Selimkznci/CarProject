@@ -67,7 +67,7 @@ namespace DataAccess.Concrete.InMemory
         {
             Car CarToUpdate = null;
             CarToUpdate = _carDal.SingleOrDefault(c => c.Id == c.Id);
-            CarToUpdate.Description = car.Description;
+            CarToUpdate.Descriptions = car.Descriptions;
             CarToUpdate.ModelYear = car.ModelYear;
             CarToUpdate.DailyPrice = car.DailyPrice;
         }

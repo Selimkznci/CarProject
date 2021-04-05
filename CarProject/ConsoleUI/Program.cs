@@ -103,18 +103,18 @@ namespace ConsoleUI
         private static void CarTest()
         {
             CarManager carManager = new CarManager(new EFCarDal());
-            carManager.Add(new Car() { BrandId = 1, ColorId = 1, DailyPrice = 90, ModelYear = "2005", Description = "Hısım" });
+            carManager.Add(new Car() { BrandId = 1, ColorId = 1, DailyPrice = 90, ModelYear = "2005", Descriptions = "Hısım" });
             Listele(carManager);
             Console.WriteLine("nolu markanın arabaları aşağıdadır");
             foreach (var item in carManager.GetCarsByBrandId(5).Data)
             {
-                Console.WriteLine("Id:" + item.Id + "   BrandId:" + item.BrandId + "   ColorId:" + item.ColorId + "   DailyPrice:" + item.DailyPrice + "  Description:" + item.Description + "  ModelYear:" + item.ModelYear);
+                Console.WriteLine("Id:" + item.Id + "   BrandId:" + item.BrandId + "   ColorId:" + item.ColorId + "   DailyPrice:" + item.DailyPrice + "  Description:" + item.Descriptions + "  ModelYear:" + item.ModelYear);
             }
                     ;
             Console.WriteLine("2 nolu rengin arabaları aşağıdadır");
             foreach (var item in carManager.GetCarsByColorId(2).Data)
             {
-                Console.WriteLine("Id:" + item.Id + "   BrandId:" + item.BrandId + "   ColorId:" + item.ColorId + "   DailyPrice:" + item.DailyPrice + "  Description:" + item.Description + "  ModelYear:" + item.ModelYear);
+                Console.WriteLine("Id:" + item.Id + "   BrandId:" + item.BrandId + "   ColorId:" + item.ColorId + "   DailyPrice:" + item.DailyPrice + "  Description:" + item.Descriptions + "  ModelYear:" + item.ModelYear);
             }
         }
 
@@ -123,7 +123,7 @@ namespace ConsoleUI
             Console.WriteLine("------");
             foreach (var item in carManager.GetAll().Data)
             {
-                Console.WriteLine("Id:" + item.Id + "   BrandId:" + item.BrandId + "   ColorId:" + item.ColorId + "   DailyPrice:" + item.DailyPrice + "  Description:" + item.Description + "  ModelYear:" + item.ModelYear);
+                Console.WriteLine("Id:" + item.Id + "   BrandId:" + item.BrandId + "   ColorId:" + item.ColorId + "   DailyPrice:" + item.DailyPrice + "  Description:" + item.Descriptions + "  ModelYear:" + item.ModelYear);
             }
         }
     }
